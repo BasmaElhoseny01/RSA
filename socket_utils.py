@@ -8,7 +8,8 @@ def receive_message(client, username, d, n):
         received_list=client.recv(2048).decode('utf-8').split('\n')
 
         plain_text=decrypt_message(received_list, d, n)
-        print(f"{username}:",plain_text)
+        print(f"{username}:"+plain_text)
+
 
 
 
@@ -17,8 +18,9 @@ def send_message(client, e, n):
     while 1:
         message = input()
         m_list = encrypt_message(message,e,n)
-        
+
         client.sendall(str.encode("\n".join(m_list)))
+        # print(str.encode("\n".join(m_list)))
 
 
 def send_username(client, username, e, n):

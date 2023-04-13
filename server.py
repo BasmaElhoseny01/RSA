@@ -30,7 +30,7 @@ def main():
     # Exchange Keys
     e,d,n,n_client,e_client=exchange_keys(client)
 
-    # print(e,d,n,n_client,e_client)
+    # print("your public key","e",e,"n",n,"d",d)
     
     # Send him your username
     username=input("Enter your username ")
