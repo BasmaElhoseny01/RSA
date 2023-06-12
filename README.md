@@ -1,5 +1,6 @@
 # RSA
  Chatting app using RSA Algorithm for secure message exchange and program to break RSA
+<!--   I used pollard rho factorization after trying  pollard p1, Fermat, and brute force factorization. -->
 
 ## <img  align= center width=50px height=50px src="https://thumbs.gfycat.com/HeftyDescriptiveChimneyswift-max-1mb.gif">Table of Content
 
